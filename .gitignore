@@ -1,0 +1,5 @@
+.env
+.ene.*
+!.env.example
+node_modules/
+dist/
