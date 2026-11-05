@@ -2064,32 +2064,6 @@ footer {
   font-size: 10px;
 }
 
-/* MOBILE */
-@media (max-width: 600px) {
-  .hero-upgraded {
-    min-height: 260px;
-    padding: 25px 0;
-    background-position: 65% center;
-  }
-
-  .hero-upgraded .hero-layout {
-    min-height: 210px;
-  }
-
-  .hero-upgraded .hero-content {
-    width: 85%;
-  }
-
-  .hero-upgraded .hero-content h1 {
-    font-size: 30px;
-  }
-
-  .hero-upgraded .hero-content p {
-    font-size: 12px;
-  }
-}
-
-
 /* ===== SRI KRISHNA FULL HERO BANNER ===== */
 
 .hero-upgraded {
@@ -2150,79 +2124,6 @@ footer {
   border-radius: 30px;
   padding: 12px 24px;
 }
-
-/* MOBILE */
-@media (max-width: 600px) {
-  .hero-upgraded,
-  .hero-upgraded .hero-layout {
-    min-height: 300px;
-  }
-
-  .hero-upgraded {
-    background-position: 58% center;
-  }
-
-  .hero-upgraded .hero-content {
-    width: 75%;
-  }
-
-  .hero-upgraded .hero-content h1 {
-    font-size: 30px;
-  }
-
-  .hero-upgraded .hero-content p {
-    font-size: 12px;
-  }
-}
-
-
-/* ===== MOBILE FULL HERO IMAGE - NO CROPPING ===== */
-
-@media (max-width: 600px) {
-
-  .hero-upgraded {
-    width: 100%;
-    height: auto;
-    min-height: 0;
-
-    background-color: #00452e;
-    background-image: url("/hero-packaging.png");
-    background-size: 100% auto;
-    background-position: bottom center;
-    background-repeat: no-repeat;
-  }
-
-  .hero-upgraded .hero-layout {
-    width: 100%;
-    height: auto;
-    min-height: 0;
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    padding: 25px 5% calc(15.8vw + 20px);
-  }
-
-  .hero-upgraded .hero-content {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .hero-upgraded .hero-content h1 {
-    font-size: 27px;
-    line-height: 1.1;
-  }
-
-  .hero-upgraded .hero-content p {
-    font-size: 12px;
-  }
-
-  .hero-upgraded .hero-image {
-    display: none !important;
-  }
-}
-
 
 /* ===== MOBILE PORTRAIT HERO IMAGE ===== */
 
@@ -3145,7 +3046,6 @@ footer {
 }
 
 
-
 .product-modal .modal-contacts .btn.whatsapp {
   background: #168b4b;
   color: #ffffff;
@@ -3195,4 +3095,3 @@ footer {
 .category-admin-item .danger:hover {
   background: #fee2e2;
 }
-

@@ -1074,7 +1074,7 @@ async function saveSettings(e: FormEvent<HTMLFormElement>) {
       <aside className="admin-sidebar">
         <Link to="/" className="brand">
           <img src={logoUrl || '/logo.png'} alt="Store logo" />
-          <span>Sri Krishna<small>ADMIN PANEL</small></span>
+          <span>Sri Krishna Enterprise<small>ADMIN PANEL</small></span>
         </Link>
 
         <nav>
